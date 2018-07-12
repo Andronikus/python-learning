@@ -21,7 +21,7 @@ def exec_function(fction, *args):
         for arg in args:
             sum = fction(sum,arg)
 
-    print('function result with args: {:^20.02f}'.format(sum))
-
+    print('function result with args: {value:^20.02f}'.format(value=sum))
+ß
 exec_function(lambda sum,value: sum+value,1,2,3,4,5)
 
